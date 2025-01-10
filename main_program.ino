@@ -8,7 +8,7 @@ MPU6050 mpu;
 Servo servoRoll, servoPitch;
 
 // PID constants
-float Kp = 1, Ki = 0.1, Kd = 0.05;
+float Kp = 1.15, Ki = 0.1, Kd = 0.05;
 float setPointRoll = 0;  // Desired Roll angle (degrees)
 float setPointPitch = 0; // Desired Pitch angle (degrees)
 float previousErrorRoll = 0, previousErrorPitch = 0;
